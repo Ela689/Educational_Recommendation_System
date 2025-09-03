@@ -50,5 +50,5 @@ The project combines **data analysis, machine learning models, and visualization
 ## 🚀 How to Run
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/Educational_Recommendation_System.git
+   git clone https://github.com/Ela689/Educational_Recommendation_System.git
    cd Educational_Recommendation_System
