@@ -1,29 +1,73 @@
-# 📊 Educational Recommendation System
+# 🎓 Educational Recommendation System
 
-[![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)  
-[![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange.svg)](https://jupyter.org/)  
-[![Status](https://img.shields.io/badge/Status-Active-success.svg)]()  
+An intelligent system that recommends universities and study programs for students, based on their **location, admission scores, and preferences**.  
+Developed in **Python** with **Jupyter Notebook**, using **machine learning models** and **data analysis**.
 
 ---
 
 ## 📖 Project Description
-This project presents an **Educational Recommendation System** developed using **Python** and **Jupyter Notebook**.  
-
-The goal of the system is to **recommend universities and study programs** to students based on their:  
-- Geographical location (home county vs. university city)  
-- Academic performance (e.g., Baccalaureate results)  
-- Preferences and patterns detected with machine learning  
-
-The project combines **data analysis, machine learning models, and visualization techniques** to offer personalized recommendations.  
+This project analyzes admission data of Romanian students and builds a **recommendation model** that helps future students:  
+- Find the **most suitable universities** nearby.  
+- Understand their chances of admission based on **Baccalaureate and exam scores**.  
+- Receive suggestions tailored to their **field of interest**.  
 
 ---
 
-## ✨ Key Features
-- 🗺 **Geolocation-based recommendations** – Match students with universities close to their location.  
-- 📊 **Performance analysis** – Use student academic results for better recommendations.  
-- 🤖 **Machine learning models** – Techniques include Random Forest regression, clustering, collaborative and content-based filtering.  
-- 📈 **Visualizations** – Graphs and charts illustrate patterns in student admissions and recommendation results.  
-- 🗄 **Educational datasets** – Data about high school students, their results, and Romanian universities.  
+## ⚙️ Workflow
+
+### 🔹 Data Processing Pipeline
+The system follows a multi-step pipeline for data preparation, training, and recommendation generation:
+
+![Workflow](images/Screenshot%202025-09-03%20173704.png)
+
+---
+
+### 🔹 Dataset Before Preprocessing
+Raw dataset structure with student information, universities, faculties, admission type, and scores:
+
+![Before Preprocessing](images/Screenshot%202025-09-03%20173816.png)
+
+---
+
+### 🔹 Random Forest Model
+A simplified view of the **Random Forest** algorithm used for prediction:
+
+![Random Forest](images/Screenshot%202025-09-03%20173841.png)
+
+---
+
+### 🔹 Dataset After Preprocessing
+The transformed dataset after feature encoding and cleaning:
+
+![After Preprocessing](images/Screenshot%202025-09-03%201738412.png)
+
+---
+
+### 🔹 Clustering Students
+Students were grouped into clusters based on similarities in admission profiles:
+
+![Clustering](images/Screenshot%202025-09-03%20174136.png)
+
+---
+
+### 🔹 Geographical Mapping
+Students and universities visualized on a map, showing distances and nearest institutions:
+
+![Map](images/Screenshot%202025-09-03%20174208.png)
+
+---
+
+### 🔹 Model Evaluation & Prediction
+Evaluation of the Random Forest model using **Mean Squared Error (MSE)** and predicted admission scores:
+
+![MSE Results](images/Screenshot%202025-09-03%20174303.png)
+
+---
+
+### 🔹 GUI for Recommendations
+A simple graphical interface where students can input their scores and preferences to receive personalized recommendations:
+
+![GUI](images/Screenshot%202025-09-03%20174407.png)
 
 ---
 
